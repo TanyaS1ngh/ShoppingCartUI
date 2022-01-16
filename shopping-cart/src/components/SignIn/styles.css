@@ -1,0 +1,38 @@
+.content-container {
+    border: 2px solid black;
+    margin-top: 60px;
+}
+
+.login-header {
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.rtb-separator {
+    border-bottom: 1px solid black;
+    padding-left: 0;
+}
+
+.login-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 20px;
+    text-align: center;
+}
+
+input::placeholder {
+    padding-left: 6px;
+}
+
+input:hover {
+    background-color: #F9F3DF;
+}
+
+.sign-up {
+    font-size: 12px;
+    text-align: center;
+}
